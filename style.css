@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    width:90%;
+    text-align:center; 
+    font-size: 2vw;
+    margin: auto;
+}
+.responsive {
+  width: 15%;
+  height: auto;
+}
+.neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+h1{
+     font-size: 4.2rem;
+    animation: flicker 1.5s infinite alternate; 
+
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
+/* Additional styling */
+  
+h2 {
+ font-size: 1.8rem;
+}
+.container {
+  margin-top: 20vh;
+}
+
+body {
+  font-size: 18px;
+  font-family: "New Rocker", cursive;
+  background-color: #010a01;
+}  
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+p{
+    font-family: 'Caveat', cursive;
+    font-size: 3vw;
+}
+.neonText2 {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #E92EFB,
+    0 0 82px #E92EFB,
+    0 0 92px #E92EFB,
+    0 0 102px #E92EFB,
+    0 0 151px #E92EFB;
+}
+.neonText3 {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #3fff00,
+    0 0 82px #3fff00,
+    0 0 92px #3fff00,
+    0 0 102px #3fff00,
+    0 0 151px #3fff00;
+}.neonText4 {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #01FFFF,
+    0 0 82px #01FFFF,
+    0 0 92px #01FFFF,
+    0 0 102px #01FFFF,
+    0 0 151px #01FFFF;
+}
